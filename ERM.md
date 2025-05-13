@@ -1,6 +1,4 @@
-
-```mermaid  
-  Department {
+    Department {
         int Dept_ID PK
         string Dept_Head
         string Dept_Name
@@ -150,6 +148,7 @@
     }
 
 
+
     DEPARTMENT ||--o{ STAFF : employs
     STAFF ||--|| DOCTOR : has
     DEPARTMENT ||--o{ DOCTOR : manages
@@ -170,5 +169,4 @@
     TECHNICIAN ||--o{ LAB_SCREENING : performs
     DOCTOR ||--o{ LAB_SCREENING : prescribes
     ROOM_TYPE ||--o{ ROOM : consists_of
-```
----
+
