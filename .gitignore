@@ -1,0 +1,44 @@
+# Ignore Visual Studio folder
+.vs/
+.vscode/
+
+# Ignore build results
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore Visual Studio Code settings
+*.code-workspace
+
+# Ignore Rider IDE settings
+.idea/
+
+# Ignore NuGet packages folder (optional)
+packages/
+
+# Ignore logs
+*.log
+
+# Ignore temp files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Ignore OS files
+Thumbs.db
+.DS_Store
+
+# Ignore test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Ignore publish folder (optional)
+publish/
